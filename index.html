@@ -21,11 +21,15 @@
         main {
             padding: 20px;
         }
-        h1 {
-            font-size: 2.5em;
+        h1, h2, h3 {
+            color: #007bff;
         }
-        p {
+        p, ul {
             font-size: 1.2em;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
         a {
             color: #007bff;
@@ -34,29 +38,89 @@
         a:hover {
             text-decoration: underline;
         }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Welcome to My Portfolio! 🎉</h1>
+    <p>👋 Hi, I'm Willie Conway, a tech professional passionate about data and software development.</p>
 </header>
 
 <main>
-    <p>👋 Hi there! I'm Willie Conway, a versatile tech professional with a strong foundation in <strong>Computer Science</strong> and <strong>Information Science</strong>, complemented by a focus on <strong>Cybersecurity</strong> and <strong>UX Design</strong>. 🖥️</p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a versatile professional with a strong foundation in <strong>Computer Science</strong> and <strong>Information Science</strong>, with experience in:</p>
+        <ul>
+            <li>💻 Software Engineering</li>
+            <li>📊 Data Science</li>
+            <li>📈 Data Analytics</li>
+            <li>📡 Information Technology</li>
+            <li>🔒 Cybersecurity</li>
+        </ul>
+        <p>As a U.S. Marine veteran, I value discipline and teamwork, which I apply to my projects. 🇺🇸</p>
+    </section>
 
-    <p>I have experience in various fields including:</p>
-    <ul>
-        <li>💻 Software Engineering</li>
-        <li>📊 Data Science</li>
-        <li>📈 Data Analytics</li>
-        <li>📡 Information Technology</li>
-    </ul>
+    <section id="skills">
+        <h2>Skills & Technologies</h2>
+        <ul>
+            <li>🔧 <strong>Programming Languages:</strong> `Python`, `SQL`, `JavaScript`, `Java`, `C++`, `Kotlin`, `Swift`</li>
+            <li>📊 <strong>Data Tools:</strong> `Tableau`, `Pandas`, `NumPy`, `Jupyter Notebooks`, `MySQL`, `PostgreSQL`</li>
+            <li>🌐 <strong>Web Development:</strong> `HTML`, `CSS`, `React`, `Django`</li>
+            <li>🔐 <strong>Cybersecurity:</strong> `Network Security`, `Risk Management`, `Vulnerability Assessment`, `CompTIA Security+` (in progress)</li>
+            <li>☁️ <strong>Cloud & DevOps:</strong> `Docker`, `Cloud Essentials+`</li>
+            <li>🎨 <strong>UX Design:</strong> `User Research`, `Wireframing`, `Prototyping`</li>
+            <li>📈 <strong>Data Analytics:</strong> `Google Data Analytics Professional Certificate`, `Google Advanced Data Analytics Professional Certificate`</li>
+            <li>🔧 <strong>Software Development:</strong> `Agile Methodologies`, `Version Control (Git)`</li>
+        </ul>
+    </section>
 
-    <p>As a U.S. Marine veteran, I value discipline and teamwork, which I apply to my projects. 🇺🇸</p>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>🎓 **B.S. in Computer Science and Information Science**</li>
+            <li>🎓 **B.S. in Criminal Justice Administration**</li>
+            <li>🎓 **Currently pursuing**:
+                <ul>
+                    <li>M.S. in Computer Science and Data Science</li>
+                    <li>M.S. in Cybersecurity and Information Assurance</li>
+                    <li>CompTIA Certifications: `Security+`, `Project+`, `ITF+`, `Server+`, `Cloud Essentials+`</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
 
-    <p>Check out my projects on <a href="https://github.com/Willie-Conway">GitHub</a> and feel free to connect with me! 🤝</p>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>I've worked on various projects that showcase my skills in data analytics, visualization, and software development. Here are a few highlights:</p>
+        <ul>
+            <li>📊 **Data Analysis Tool** - Developed a tool for analyzing sales data to identify trends.</li>
+            <li>🌐 **Web Application** - Built a web application for user management using `Django`.</li>
+            <li>📈 **Business Intelligence Dashboard** - Created an interactive dashboard using `Tableau`.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to connect with me or check out my repositories to see what I’m working on!</p>
+        <p>Email: <a href="mailto:hire.willie.conway@gmail.com">hire.willie.conway@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/willieconway/">Willie Conway</a></p>
+        <p>GitHub: <a href="https://github.com/Willie-Conway">Willie-Conway</a></p>
+    </section>
 </main>
+
+<footer>
+    <p>© 2024 Willie Conway. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
